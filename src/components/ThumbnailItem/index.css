@@ -1,0 +1,15 @@
+/* Write your code here. */
+li {
+  list-style-type: none;
+}
+.list-item {
+  margin-left: 18px;
+  opacity: 0.5;
+}
+.remove-opacity {
+  opacity: 1;
+}
+button {
+  border-style: none;
+  background-color: transparent;
+}

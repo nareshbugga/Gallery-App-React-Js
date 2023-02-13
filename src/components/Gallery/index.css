@@ -1,0 +1,30 @@
+/* Write your code here. */
+li {
+  list-style-type: none;
+}
+.bg-container {
+  padding: 10px;
+}
+@media screen and (max-width: 767px) {
+  .image-size {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 767px) {
+  .image-size {
+    height: 350px;
+    width: 100%;
+  }
+}
+.thumbnail-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.heading {
+  margin-left: 50px;
+}
+.para {
+  margin-left: 50px;
+  opacity: 0.5;
+  font-weight: bold;
+}
